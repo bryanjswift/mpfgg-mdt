@@ -1,4 +1,4 @@
-### Week 12 (Fortified/Bursting/Quaking/Infested)
+# Skip Last Trash
 
 ![Outside](../tol-dagor/week-12/01-tol-dagor.png)
 
