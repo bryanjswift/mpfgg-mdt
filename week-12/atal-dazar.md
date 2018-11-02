@@ -3,7 +3,7 @@
 ![All in one](../atal-dazar/week-12/01-atal-dazar.png)
 
 1. Pull both saurid packs
-1. Rezan. Lust.
+1. Rezan **Lust**
 1. Pack that was to the left when we zoned in
 1. Stalker and honor guard and shieldbearers when they patrol close
 1. Stalker and middle pack (CC infested honor guard)
@@ -11,7 +11,7 @@
 1. Kill infested honor guard and witch doctor
 1. Around the outside of the stairs, warlock gate to Vol'kaal
 1. Warlock gate out of Vol'kaal, jump onto stairs
-1. Stalkers & pack at bottom of stairs (CC infested)
+1. Stalkers & pack at bottom of stairs (CC infested). **Lust**
 1. Saurid and screamer packs (CC infested) after gate
 1. Go left, screamer and saurid pack. We would come through this way if we
   wipe anywhere after Vol'kaal
@@ -19,7 +19,7 @@
 1. Screamer and saurid pack (CC infested)
 1. Double augur and honor guard pack (CC infested)
 1. Dodge the fire
-1. Pack at top, CC augur, pull the rest (including priestesses).
+1. Pack at top, CC augur, pull the rest (including priestesses)  **Lust**
 1. Pull augur and juggernaut off to the side (gives things time to come off cooldown)
 1. Priestess Alun'za
 1. Yamza
