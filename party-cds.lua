@@ -192,10 +192,14 @@ end
 
 local function setIconPosition(v,rowIdx)
     local unit
-    local memberIdx = 0
-    for u in WA_IterateGroupMembers() do
-        memberIdx = memberIdx + 1
-        if UnitName(u) == v.name then unit = u end
+    local displayIdx = 0
+    local children = { CompactRaidFrameContainer:GetChildren() }
+    for frameIdx, frame in ipairs(children) do
+        local u = frame:GetAttribute('unit')
+        if UnitName(u) == v.name then
+          unit = u
+          displayIdx = frameIdx
+        end
     end
     if not unit then
         v.show = false
@@ -203,15 +207,15 @@ local function setIconPosition(v,rowIdx)
     else
         v.unit = unit
         local region = WeakAuras.GetRegion(aura_env.id, v.ID)
-        local positionTo = aura_env.positionToArr[memberIdx]
+        local positionTo = aura_env.positionToArr[displayIdx]
         if not positionTo then
             positionTo = aura_env.positionToArr["default"]
         end
-        local positionFrom = aura_env.positionFromArr[memberIdx]
+        local positionFrom = aura_env.positionFromArr[displayIdx]
         if not positionFrom then
             positionFrom = aura_env.positionFromArr["default"]
         end
-        local growDirection = aura_env.growDirectionArr[memberIdx]
+        local growDirection = aura_env.growDirectionArr[displayIdx]
         if not growDirection then
             growDirection = aura_env.growDirectionArr["default"]
         end
